@@ -1,0 +1,8 @@
+version: "3.9"
+
+services: 
+  go_backed:
+    image: debayan/go-backend
+    build: .
+    ports: 
+      - 8000:8000
